@@ -1,0 +1,15 @@
+.payment_main{
+    max-width: 483px;
+    width: 100%;
+    background: #21092F;
+    min-height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.payment_card{
+    position: relative;
+    background: black;
+    max-width: 541px;
+    width: 100%;
+}
