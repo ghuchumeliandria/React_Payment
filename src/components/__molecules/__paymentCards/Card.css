@@ -82,3 +82,33 @@
       top: 15px;
     }
 }
+@media(max-width:605px){
+  .card{
+    max-width: 286px;
+    height: 157px;
+  }
+  .black_line{
+    height: 34.605px;
+  }
+  .card_safe_code_div{
+    height: 29px;
+    max-width: 230px;
+  }
+  .card_safe_code_div p{
+    font-size: 9px;
+  }
+  .card_back svg{
+    display: none;
+  }
+  .front_card{
+    top: 124px;
+    right: 50px;
+    padding: 12px;
+  }
+  .card_number p{
+  font-size: 17px;
+  }
+  .card_holder p{
+    font-size: 9px;
+  }
+}

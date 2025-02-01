@@ -17,3 +17,8 @@
         justify-content: center
     };
 }
+@media(max-width:603px){
+    .card_data{
+        margin-top: 0;
+    };
+}
