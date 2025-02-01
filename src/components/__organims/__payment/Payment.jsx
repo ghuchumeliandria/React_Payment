@@ -10,9 +10,15 @@ function Payment(){
     return(
         <>
         <div className="payment_main">
-            <div className="payment_card">
+            <div className="payment_main_box">
+            <div className="payment_cards">
+                <div className="payment_front_card">
                 <CardFront />
+                </div>
+                <div className="payment_back_card">
                 <CardBack />
+                </div>
+            </div>
             </div>
         </div>
         </>

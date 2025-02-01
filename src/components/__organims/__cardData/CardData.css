@@ -1,0 +1,19 @@
+.card_data{
+    width: 100%;
+    display: flex;
+    padding-right: 227px;
+    justify-content: flex-end;
+}
+.payment_inputs_main{
+    max-width: 381px;
+    width: 100%;
+    margin: 0 10px;
+}
+
+@media(max-width:1093px){
+    .card_data{
+        margin-top: 115px;
+        padding: 20px;
+        justify-content: center
+    };
+}

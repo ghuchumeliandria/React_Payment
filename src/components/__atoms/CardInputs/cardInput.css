@@ -1,0 +1,22 @@
+.card_input {
+  height: 45px;
+  border-radius: 8px;
+  border: 1.7px solid var(--Light-Grey, #DFDEE0);
+  outline: none;
+  background: var(--White, #fff);
+  padding-left: 16px;
+  color: var(--Light-Grey, #DFDEE0);
+  font-family: "Space Grotesk";
+  font-size: 18px;
+  font-weight: 500;
+}
+.card_input::placeholder{
+  color: var(--Light-Grey, #DFDEE0);
+}
+.date_input {
+  width: 80px;
+  height: 45px;
+}
+.card_cvc{
+  width: 100%;
+}

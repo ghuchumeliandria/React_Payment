@@ -1,0 +1,36 @@
+.payment_inputs {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  height: 100%;
+  justify-content: center;
+}
+.card_input_side {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.payment_inputs label {
+  color: var(--Deep-Violet, #21092f);
+  font-family: "Space Grotesk";
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.form_date_inputs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.date_inputs div{
+  display: flex;
+  gap: 10px;
+}
+.form_cvc , .date_inputs{
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
