@@ -29,12 +29,19 @@
 .card_number {
   width: 100%;
 }
-.card_number p {
+.card_number_input {
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
   color: var(--White, #fff);
   font-family: "Space Grotesk";
   font-size: 28px;
   font-weight: 500;
   letter-spacing: 3.422px;
+}
+.card_number_input::placeholder{
+  color: var(--White, #fff);
 }
 .card_holder p {
   color: var(--White, #fff);
@@ -105,7 +112,7 @@
     right: 50px;
     padding: 12px;
   }
-  .card_number p{
+  .card_number_input{
   font-size: 17px;
   }
   .card_holder p{

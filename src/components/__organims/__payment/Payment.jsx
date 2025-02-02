@@ -5,7 +5,7 @@ import CardFront from "../../__molecules/__paymentCards/cardFront";
 
 
 
-function Payment(){
+function Payment(props){
 
     return(
         <>
@@ -13,10 +13,10 @@ function Payment(){
             <div className="payment_main_box">
             <div className="payment_cards">
                 <div className="payment_front_card">
-                <CardFront />
+                <CardFront cardNum={props.cardNum} cardHolder={props.cardHolder} cardMonth={props.cardMonth} cardYear={props.cardYear} />
                 </div>
                 <div className="payment_back_card">
-                <CardBack />
+                <CardBack cardCvc={props.cardCvc}/>
                 </div>
             </div>
             </div>

@@ -3,7 +3,7 @@ import "./Card.css";
 import CardNumber from "../../__atoms/_cardNumber/CardNumber";
 import CardHolder from "../../__atoms/__cardHolder/CardHolder";
 
-function CardFront() {
+function CardFront(props) {
   return (
     <>
       <div className="card front_card">
@@ -28,8 +28,8 @@ function CardFront() {
           </svg>
         </div>
         <div className="card_info">
-            <CardNumber />
-            <CardHolder />
+            <CardNumber cardNum={props.cardNum} />
+            <CardHolder cardHolder={props.cardHolder} cardMonth={props.cardMonth} cardYear={props.cardYear} />
         </div>
       </div>
     </>

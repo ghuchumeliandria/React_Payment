@@ -2,12 +2,12 @@ import React from "react";
 import "./Card.css";
 import CardSafeCode from "../../__atoms/__cardSafeCode/CardSafeCode";
 
-function CardBack() {
+function CardBack(props) {
   return (
     <>
       <div className="card card_back">
         <div className="black_line"></div>
-        <CardSafeCode />
+        <CardSafeCode cardCvc={props.cardCvc} />
         <svg 
           xmlns="http://www.w3.org/2000/svg"
           width="186"

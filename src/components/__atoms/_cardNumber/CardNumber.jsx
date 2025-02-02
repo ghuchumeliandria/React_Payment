@@ -1,14 +1,24 @@
-import React from "react";
-import "../../__molecules/__paymentCards/Card.css"
+import React, { useState } from "react";
+import "../../__molecules/__paymentCards/Card.css";
 
-function CardNumber(){
-    return (
-        <>
-        <div className="card_number">
-            <p>0000 0000 0000 0000 </p>
-        </div>
-        </>
-    )
+function CardNumber(props) {
+  return (
+    <>
+      <div className="card_number">
+        <input
+          type="text"
+          inputMode="numeric"
+          autoComplete="cc-number"
+          placeholder={props.cardNum}
+          className="card_number_input"
+          onChange={(e) => {
+            const { value } = e.target;
+            e.target.value = normalizedCardNumber(value);
+          }}
+        />
+      </div>
+    </>
+  );
 }
 
 export default CardNumber;

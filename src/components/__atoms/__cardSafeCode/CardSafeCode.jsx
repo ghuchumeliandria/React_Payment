@@ -1,11 +1,11 @@
 import React from "react";
 import "../../__molecules/__paymentCards/Card.css"
 
-function CardSafeCode(){
+function CardSafeCode(props){
     return (
         <>
         <div className="card_safe_code_div">
-            <p>000</p>
+            <p>{props.cardCvc}</p>
 
         </div>
         </>
