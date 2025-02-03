@@ -20,3 +20,13 @@
 .card_cvc{
   width: 100%;
 }
+.card_num_input_div{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.card_num_input_div p{
+  color: red;
+  font-family: "Space Grotesk";
+}
+

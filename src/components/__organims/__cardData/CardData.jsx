@@ -12,6 +12,9 @@ function CardData(props) {
             setCardMonth={props.setCardMonth}
             setCardYear={props.setCardYear}
             setCardCvc={props.setCardCvc}
+            true={props.true}
+            isTrue={props.isTrue}
+            setBtnTrue={props.setBtnTrue}
           />
         </div>
       </div>

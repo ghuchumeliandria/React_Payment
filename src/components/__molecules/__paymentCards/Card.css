@@ -78,7 +78,9 @@
   margin: 0 auto;
   margin-top: 33px;
 }
-
+.name_paragraph{
+  overflow: hidden;
+}
 @media(max-width:1093px){
     .front_card{
       position: absolute;

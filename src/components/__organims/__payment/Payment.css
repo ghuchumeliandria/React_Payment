@@ -9,7 +9,7 @@
     height: 100%;
     padding:0 20px;
     background-image: url(../../../assets/bg-main-desktop.png);
-    background-size: 483px;
+    background-size: 483px 100%;
     background-repeat: no-repeat;
     display: flex;
     justify-content: flex-end;

@@ -1,20 +1,17 @@
 import React, { useState } from "react";
 import "../../__molecules/__paymentCards/Card.css";
+import InputMask from "react-input-mask";
 
 function CardNumber(props) {
   return (
     <>
       <div className="card_number">
-        <input
-          type="text"
-          inputMode="numeric"
-          autoComplete="cc-number"
-          placeholder={props.cardNum}
+        <InputMask
+          placeholder="0000 0000 0000 0000"
+          value={props.cardNum}
+          maskChar={null}
+          mask="9999 9999 9999 9999" 
           className="card_number_input"
-          onChange={(e) => {
-            const { value } = e.target;
-            e.target.value = normalizedCardNumber(value);
-          }}
         />
       </div>
     </>

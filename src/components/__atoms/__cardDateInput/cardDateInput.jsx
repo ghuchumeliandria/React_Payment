@@ -1,20 +1,20 @@
 import React, { useState } from "react";
-import "./cardInput.css";
+import "../CardInputs/CardInput.css";
 import { use } from "react";
 
-function CardInput(props) {
+function CardDateInput(props) {
   const [inputError, setInputError] = useState("");
   function cardFun(e) {
     props.cardData(e.target.value);
     const { value } = e.target;
-    if (isNaN(value) || value.length == 0 ) {
-      setInputError("")
+    if (isNaN(value) ) {
+        setInputError("Please Enter a Number");
     }   
     else{
-      setInputError("Please Enter a String");
+        setInputError("")
     }
-    if( value.length > 22){
-      setInputError("Such a long first and last name does not exist")
+    if( value.length > 2){
+      setInputError(" long")
     } 
     
   }
@@ -34,4 +34,4 @@ function CardInput(props) {
     </>
   );
 }
-export default CardInput;
+export default CardDateInput;

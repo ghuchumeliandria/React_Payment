@@ -5,7 +5,7 @@ function CardHolder(props){
     return (
         <>
         <div className="card_holder">
-            <p> {props.cardHolder} </p>
+            <p className="name_paragraph"> {props.cardHolder} </p>
             <p>{props.cardMonth}/{props.cardYear} </p>
 
         </div>
