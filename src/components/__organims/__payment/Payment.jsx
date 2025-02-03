@@ -1,7 +1,7 @@
 import React from "react";
 import "./Payment.css";
 import CardBack from "../../__molecules/__paymentCards/CardBack";
-import CardFront from "../../__molecules/__paymentCards/cardFront";
+import CardFront from "../../__molecules/__paymentCards/CardFront";
 
 
 
