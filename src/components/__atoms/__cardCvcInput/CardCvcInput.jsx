@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../CardInputs/CardInput.css";
+import "../CardInputs/cardInput.css";
 import { use } from "react";
 
 function CardCvcInput(props) {
