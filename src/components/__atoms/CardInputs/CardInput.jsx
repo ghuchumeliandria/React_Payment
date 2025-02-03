@@ -25,8 +25,6 @@ function CardInput(props) {
           type="text"
           className={props.className}
           placeholder={props.placeHolder}
-          inputMode="numeric"
-          autoComplete="cc-number"
           onChange={cardFun}
         />
         <p >{inputError}</p>
